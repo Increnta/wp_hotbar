@@ -38,8 +38,9 @@ class INCHotBar {
 			
 			echo '
 				<div class="topBar">
-					<div class="wrapTopBar">' . $description . '<a href="' . $button_url . '" class="buttonTopBar">' . $button_text . '</a></div>
+					<div class="wrapTopBar">
 					<span class="closeTopBar">x</span>
+					' . $description . '<a href="' . $button_url . '" class="buttonTopBar">' . $button_text . '</a></div>
 				</div>
 			';
 		}
@@ -118,7 +119,7 @@ class INCHotBar {
 				</tr>
 				<tr>
 				    <th scope="row">
-				        <label for="hotbar_button_url"><?php _e('Button link','hotbar'); ?></label>
+				        <label for="my-text-field"><?php _e('Button link','hotbar'); ?></label>
 				    </th>
 				 
 				    <td>

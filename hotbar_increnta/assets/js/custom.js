@@ -8,7 +8,9 @@
 
 jQuery(document).ready(function(){
 	jQuery('.topBar').hide().fadeToggle('slow',function(){
-		jQuery('.mk-header-holder').css('top','82px','important');
+		var h = jQuery('.topBar').height() + 30;
+		h = h + 'px';
+		jQuery('.mk-header-holder').css('top', h,'important');
 	});
 
 	jQuery('.closeTopBar').click(function(){
