@@ -1,6 +1,7 @@
 # wp_hotbar
 
 == Author ==
+
 Alberto González
 
 == Description ==
